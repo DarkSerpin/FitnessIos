@@ -1,0 +1,2 @@
+C:/Users/User/Documents/GitHub/fitness/build/.cxx/debug/3r5b2a6g/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/User/Documents/GitHub/fitness/build/.cxx/debug/3r5b2a6g/armeabi-v7a/CMakeFiles/rebuild_cache.dir
