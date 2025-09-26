@@ -3,13 +3,11 @@ workflows:
     name: iOS Build
     environment:
       xcode: latest
+      flutter: stable
     scripts:
-      - name: Install pods
-        script: | 
-          cd ios
-          pod install
       - name: Build iOS
         script: |
-          flutter build ipa --release
+          flutter pub get
+          flutter build ipa --release --no-codesign
     artifacts:
       - build/ios/ipa/*.ipa
